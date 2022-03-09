@@ -129,7 +129,7 @@ For the EA purchaser role, use the same steps for the enrollment reader. Specify
 
       :::image type="content" source="./media/assign-roles-azure-service-principals/billing-account-id.png" alt-text="Screenshot showing Billing account ID." lightbox="./media/assign-roles-azure-service-principals/billing-account-id.png" :::
 
-   - `billingRoleAssignmentName`: This parameter is a unique GUID that you need to provide. You can generate a GUID using the [New-Guid](/powershell/module/microsoft.powershell.utility/new-guid) PowerShell command. You can also use the [Online GUID / UUID Generator](https://guidgenerator.com/) website to generate a unique GUID.
+   - `billingRoleAssignmentName`: This is the Role definition ID and it needs to be selected from the list provided under the ## Permissions that can be assigned to the SPN.
 
    - `departmentName`: This parameter is the department ID. You can see department IDs in the Azure portal on the **Cost Management + Billing** > **Departments** page.
 
